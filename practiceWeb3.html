@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page</title>
+    <link rel="stylesheet" href="practiceWeb3.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="container-left"></div>
+        <div class="container-right">
+            <h1 style="margin-left: 125px;">Log in with</h1>
+            <br>
+            <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fpli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S2131391058%3A1720158853109227&ddm=0">
+                <span class="block" id="google" style="margin-left: 50px;"><span  class="logo">G</span> Google</span>
+            </a>
+            <a href="https://www.facebook.com/login/">
+                <span class="block" style="margin-left: 20px;"><i class='bx-fw bx bxl-facebook-square'></i>facebook</span>
+            </a>
+            <br><br>
+            <h4>or</h4>
+            <form action="">
+                <label for="Email">Email</label>
+                <br>
+                <input name="Email" type="email" placeholder="Enter your email" style="margin-bottom: 10px;">
+                <br>
+                <label for="Password">Password</label>
+                <br>
+                <input name="Password" type="password" placeholder="Enter your password" style="margin-bottom: 25px;"">
+                <button type="button" onclick="myfunction()">Log in</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h4 style="margin-left: 230px; font-size: 185x; font-weight: bolder;color: white;">Don't have an account?<span class="hover">Sign Up</span></h4>
+    </div>
+    <script src="practiceWeb3.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
